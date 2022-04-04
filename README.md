@@ -8,4 +8,4 @@ I made use of an EC2 instance which I created in AWS to directly integrate my gi
 
 In the integration process, I created a Jenkins API token before configuring the repository.
 
-After that, I created webhooks in my Github repo as well as creating a Githun token.
+After that, I created webhooks in my Github repo as well as creating a Github token.
