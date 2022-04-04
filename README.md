@@ -16,4 +16,4 @@ Going back to my Jenkins server, I configured the GitHub webhook and token. On c
 My Jenkins server can be accessed at http://34.220.199.252:8080/ I have provided the login credentials to the server in my application.
 
 ## Jenkins pipeline syntax
-For the syntax, I started with a declarative pipeline, then used an agent as well as stage agents and then a post section. The first stage shows whats happening the job while the echo is the actaul thing happening int he job
+For the syntax, I started with a declarative pipeline, then used an agent as well as stage agents and then a post section. The first stage shows whats happening the job while the echo is the actaul thing happening in the job. The pipeline is being built, then tested before its being deployed.
