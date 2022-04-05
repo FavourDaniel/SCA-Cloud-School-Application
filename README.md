@@ -1,6 +1,6 @@
 # SCA-Cloud-School-Application
 
-This repository contains a Python file and Jenkins file for the first assessment exercise given to us at She Code Africa. It it solely for the task completion.
+This repository contains a Python file and Jenkins file for the first assessment exercise given to us at She Code Africa. It is solely for the task completion.
 
 ## Jenkins integration with repo
 I made use of an EC2 instance which I created in AWS to directly install Jenkins and integrate my github repo to the job build ensuring to use a port 8080.
@@ -13,7 +13,10 @@ I created a Jenkins file with all stages declared for ease in creating the Jenki
 
 Going back to my Jenkins server, I configured the GitHub webhook and token. On completion of this process, I created a Jenkins pipeline to test my webhook then ran it manually so that the Jenkins job would be triggered by the webhook then created a new commit in my GitHub repo.
 
-My Jenkins server can be accessed at http://34.220.199.252:8080/ I have provided the login credentials to the server in my application.
+## Jenkins Credentials
+The username is: favour
+The password is: scacloudschool2022
+My Jenkins server can be accessed at http://34.220.199.252:8080/ 
 
 ## Jenkins pipeline syntax
-For the syntax, I started with a declarative pipeline, then used an agent as well as stage agents and then a post section. The first stage shows whats happening the job while the echo is the actaul thing happening in the job. The pipeline is being built, then tested before its being deployed.
+For the syntax, I started with a declarative pipeline, then made use of agent,stage agents and then a post section. The first stage shows what's happening in the job while the echo is the actual task being exected in the job. The pipeline is being built, then tested before its being deployed.
