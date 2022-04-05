@@ -14,8 +14,11 @@ I created a Jenkins file with all stages declared for ease in creating the Jenki
 Going back to my Jenkins server, I configured the GitHub webhook and token. On completion of this process, I created a Jenkins pipeline to test my webhook then ran it manually so that the Jenkins job would be triggered by the webhook then created a new commit in my GitHub repo.
 
 ## Jenkins Credentials
+
 The username is: favour
+
 The password is: scacloudschool2022
+
 My Jenkins server can be accessed at http://34.220.199.252:8080/ 
 
 ## Jenkins pipeline syntax
